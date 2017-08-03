@@ -1,0 +1,19 @@
+name:                cabal-parser-benchmark
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+- Cabal
+- Cabal-snoy
+- bytestring
+- tar
+- directory
+- clock
+- filepath
+- text
+
+executables:
+  cabal-parser-benchmark:
+    source-dirs:      src
+    main:             Main.hs
+    ghc-options:      -O2

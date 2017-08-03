@@ -1,0 +1,7 @@
+resolver: lts-9.0
+packages:
+- .
+- location: ./cabal-snoy/Cabal
+  extra-dep: true
+extra-deps:
+- Cabal-2.0.0.2
